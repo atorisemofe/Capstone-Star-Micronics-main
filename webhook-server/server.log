@@ -1,0 +1,116 @@
+nohup: ignoring input
+no press
+<ref *2> Screen {
+  generateFunction: [Function: drawPromo],
+  singlePress: <ref *1> Screen {
+    generateFunction: [Function: drawMenu],
+    singlePress: null,
+    longPress: Screen {
+      generateFunction: [Function: drawHelp],
+      singlePress: null,
+      longPress: [Circular *1],
+      idle: null,
+      idleTime: 0
+    },
+    idle: [Circular *2],
+    idleTime: 40
+  },
+  longPress: null,
+  idle: [Circular *2],
+  idleTime: 20
+}
+Webhook server running on port 3000
+{"results":[{"app_id":"RqgJVY4l","device_id":"mtCtZxMe","job_id":"2zuXOQotnz8","status_code":200,"result":"Success"}]}
+Received event: {
+  title: 'image-updated',
+  app_id: 'RqgJVY4l',
+  id: 'mtCtZxMe',
+  address: '00:11:62:00:17:55',
+  device_name: '3',
+  job_id: '2zuXOQotnz8'
+}
+Image updated for device 3 (ID: mtCtZxMe, Address: 00:11:62:00:17:55), Job ID: 2zuXOQotnz8
+Received event: {
+  title: 'push-switch-on',
+  app_id: 'RqgJVY4l',
+  id: 'mtCtZxMe',
+  address: '00:11:62:00:17:55',
+  device_name: '3',
+  action: 1
+}
+Push switch pressed on device 3 (ID: mtCtZxMe, Address: 00:11:62:00:17:55) with action: 1
+Received event: {
+  title: 'push-switch-on',
+  app_id: 'RqgJVY4l',
+  id: 'mtCtZxMe',
+  address: '00:11:62:00:17:55',
+  device_name: '3',
+  action: 1
+}
+Push switch pressed on device 3 (ID: mtCtZxMe, Address: 00:11:62:00:17:55) with action: 1
+Received event: {
+  title: 'push-switch-on',
+  app_id: 'RqgJVY4l',
+  id: 'ZscJai2F',
+  address: '00:11:62:00:17:A6',
+  device_name: '2',
+  action: 1
+}
+Push switch pressed on device 2 (ID: ZscJai2F, Address: 00:11:62:00:17:A6) with action: 1
+single press
+<ref *1> Screen {
+  generateFunction: [Function: drawMenu],
+  singlePress: null,
+  longPress: Screen {
+    generateFunction: [Function: drawHelp],
+    singlePress: null,
+    longPress: [Circular *1],
+    idle: null,
+    idleTime: 0
+  },
+  idle: <ref *2> Screen {
+    generateFunction: [Function: drawPromo],
+    singlePress: [Circular *1],
+    longPress: null,
+    idle: [Circular *2],
+    idleTime: 20
+  },
+  idleTime: 40
+}
+{"results":[{"app_id":"RqgJVY4l","device_id":"ZscJai2F","job_id":"2zuXOQT2vxn","status_code":200,"result":"Success"}]}
+Received event: {
+  title: 'image-updated',
+  app_id: 'RqgJVY4l',
+  id: 'ZscJai2F',
+  address: '00:11:62:00:17:A6',
+  device_name: '2',
+  job_id: '2zuXOQT2vxn'
+}
+Image updated for device 2 (ID: ZscJai2F, Address: 00:11:62:00:17:A6), Job ID: 2zuXOQT2vxn
+Received event: {
+  title: 'push-switch-on',
+  app_id: 'RqgJVY4l',
+  id: 'ZscJai2F',
+  address: '00:11:62:00:17:A6',
+  device_name: '2',
+  action: 129
+}
+Push switch pressed on device 2 (ID: ZscJai2F, Address: 00:11:62:00:17:A6) with action: 129
+Received event: {
+  title: 'push-switch-on',
+  app_id: 'RqgJVY4l',
+  id: 'mtCtZxMe',
+  address: '00:11:62:00:17:55',
+  device_name: '3',
+  action: 1
+}
+Push switch pressed on device 3 (ID: mtCtZxMe, Address: 00:11:62:00:17:55) with action: 1
+Received event: {
+  title: 'push-switch-on',
+  app_id: 'RqgJVY4l',
+  id: 'ZscJai2F',
+  address: '00:11:62:00:17:A6',
+  device_name: '2',
+  action: 1
+}
+Push switch pressed on device 2 (ID: ZscJai2F, Address: 00:11:62:00:17:A6) with action: 1
